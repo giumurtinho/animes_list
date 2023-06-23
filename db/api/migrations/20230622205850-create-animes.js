@@ -13,7 +13,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       episodios: {
-        type: Sequelize.NUMBER
+        type: Sequelize.INTEGER
       },
       createdAt: {
         allowNull: false,

@@ -10,7 +10,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       episodes_watched: {
-        type: Sequelize.NUMBER
+        type: Sequelize.INTEGER
       },
       is_finished: {
         type: Sequelize.BOOLEAN

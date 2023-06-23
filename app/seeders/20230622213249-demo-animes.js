@@ -3,24 +3,24 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
-    return queryInterface.bulkInsert('Users', [
+    return queryInterface.bulkInsert('Animes', [
       {
-        nome: 'Kimetsu no Yaiba',
+        name: 'Kimetsu no Yaiba',
         episodios: 35,
         createdAt: new Date(),
         updatedAt: new Date()
       }, {
-        nome: 'Given',
+        name: 'Given',
         episodios: 12,
         createdAt: new Date(),
         updatedAt: new Date()
       }, {
-        nome: 'Uma Vida Imortal',
+        name: 'Uma Vida Imortal',
         episodios: 24,
         createdAt: new Date(),
         updatedAt: new Date()
       }, {
-        nome: 'Boku no Hero',
+        name: 'Boku no Hero',
         episodios: 144,
         createdAt: new Date(),
         updatedAt: new Date()

@@ -3,7 +3,7 @@
 const {Model} = require('sequelize');
 
 module.exports = (sequelize, DataTypes) => {
-  const Users_animes = dequelize.define('Users_animes', {
+  const Users_animes = sequelize.define('Users_animes', {
     episodes_watched: DataTypes.NUMBER,
     is_finished: DataTypes.BOOLEAN
   }, {})
